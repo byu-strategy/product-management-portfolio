@@ -1,19 +1,21 @@
 ---
 title: "About Me"
-image: images/profile.jpg
-about:
-  template: solana
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com/in/your-profile
-    - icon: github
-      text: GitHub
-      href: https://github.com/your-username
-    - icon: envelope
-      text: Email
-      href: mailto:your.email@example.com
 ---
+
+::: {.hero-banner .text-center}
+
+<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+
+<h1>Your Name</h1>
+
+<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+  <i class="fab fa-linkedin"></i> LinkedIn
+</a>
+<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+  <i class="fab fa-github"></i> GitHub
+</a>
+
+:::
 
 ## Background
 
@@ -59,9 +61,3 @@ Share what you're passionate about outside of work - this helps humanize your pr
 ### What's Next
 
 Describe your career goals and what type of opportunities you're seeking. This helps visitors understand how they might work with you or whether you'd be a good fit for their organization.
-
----
-
-## Let's Connect
-
-I'm always interested in discussing product management, data analytics, or potential collaboration opportunities. Feel free to reach out!
