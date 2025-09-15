@@ -8,14 +8,13 @@ This repository contains a professional portfolio website built with Quarto that
 1. **Update your information** in the following files:
    - `index.qmd` - Replace "Your Name" and update your bio, skills, and contact links
    - `about.qmd` - Add your background, education, experience, and career goals
-   - `_quarto.yml` - Update the website title with your name
 
 2. **Add your profile image**:
    - Add a professional headshot to the `images/` folder named `profile.jpg`
    - Update image paths in `index.qmd` and `about.qmd` if you use a different filename
 
 3. **Customize your projects**:
-   - Replace the content in `projects/project-1.qmd`, `projects/project-2.qmd`, and `projects/project-3.qmd`
+   - Replace the content in `projects/project-1.qmd`, `projects/project-2.qmd`, etc.
    - Add project images to the `images/` folder
    - Update project titles and descriptions in `_quarto.yml`
 
@@ -61,22 +60,6 @@ format:
 ### Custom Styling
 - Add custom CSS in a `styles.css` file
 - Reference it in `_quarto.yml` under `format: html: css: styles.css`
-
-## 📝 Writing Tips
-
-### Project Pages
-Each project should include:
-- **Clear problem statement** - What challenge were you solving?
-- **Your approach** - How did you tackle the problem?
-- **Results and impact** - What was the outcome? Use numbers when possible.
-- **Skills demonstrated** - What tools and techniques did you use?
-- **Visuals** - Charts, screenshots, or diagrams that support your story
-
-### Professional Writing
-- Use active voice and specific examples
-- Quantify your impact (increased engagement by 25%, analyzed 10,000+ records, etc.)
-- Focus on business outcomes, not just technical details
-- Proofread carefully - this represents your professional brand
 
 ## 🌐 Your Live Website
 
