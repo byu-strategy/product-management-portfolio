@@ -5,7 +5,9 @@ project:
 website:
   title: "Your Name - Portfolio"
   navbar:
-    left:
+    background: primary
+    search: false
+    center:
       - href: index.qmd
         text: Home
       - href: about.qmd
