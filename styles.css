@@ -25,10 +25,25 @@
 /* Improve main content spacing */
 .quarto-title-banner {
   padding: 2rem 0;
+  text-align: center;
 }
 
 .quarto-title-block .quarto-title {
   margin-bottom: 1rem;
+  text-align: center;
+}
+
+.quarto-title-block .quarto-title h1 {
+  text-align: center;
+}
+
+/* Center the subtitle and other title elements */
+.quarto-title-block .description {
+  text-align: center;
+}
+
+.quarto-title-block .quarto-categories {
+  justify-content: center;
 }
 
 /* Better spacing for main content */
