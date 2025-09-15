@@ -1,55 +1,39 @@
 ---
-title: "Your Name"
-subtitle: "Product Manager & Data Analyst"
-image: images/profile.jpg
-about:
-  template: trestles
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com/in/your-profile
-    - icon: github
-      text: GitHub
-      href: https://github.com/your-username
-    - icon: envelope
-      text: Email
-      href: mailto:your.email@example.com
+title: "Welcome to My Portfolio"
 ---
-
-## Welcome to My Portfolio
 
 I'm a passionate product manager with experience in data analysis, user research, and strategic planning. This portfolio showcases my work and projects that demonstrate my skills in product management, analytics, and problem-solving.
 
 ## Featured Projects
 
-::: {.grid}
+::: {.grid .g-3} <!-- g-3 = adds spacing between tiles -->
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .card}
 ### [Portfolio Development](projects/project-1.qmd)
 Professional portfolio website with automated GitHub Pages and Vercel deployment showcasing technical and project management skills.
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .card}
 ### [Business Case Presentation](projects/project-2.qmd)
 Comprehensive pitch deck and strategic analysis for new product development, including market research and financial modeling.
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .card}
 ### [Market Entry Strategy](projects/project-3.qmd)
 Data-driven market research and go-to-market strategy for entering new product categories and geographic markets.
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .card}
 ### [Project 4](projects/project-4.qmd)
 Placeholder for your fourth project. Replace with your actual project title and description.
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .card}
 ### [Project 5](projects/project-5.qmd)
 Placeholder for your fifth project. Replace with your actual project title and description.
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .card}
 ### [Project 6](projects/project-6.qmd)
 Placeholder for your sixth project. Replace with your actual project title and description.
 :::
@@ -58,11 +42,11 @@ Placeholder for your sixth project. Replace with your actual project title and d
 
 ## Skills & Expertise
 
-- **Product Management**: Roadmap planning, feature prioritization, stakeholder management
-- **Data Analysis**: SQL, Python, R, statistical analysis, data visualization
-- **Research**: User interviews, surveys, A/B testing, market analysis
-- **Tools**: Figma, Tableau, Google Analytics, Jira, Confluence
+- **Product Management**: Roadmap planning, feature prioritization, stakeholder management  
+- **Data Analysis**: SQL, Python, R, statistical analysis, data visualization  
+- **Research**: User interviews, surveys, A/B testing, market analysis  
+- **Tools**: Figma, Tableau, Google Analytics, Jira, Confluence  
 
 ---
 
-*Last updated: [Current Date]*
+*Last updated: {{< meta date >}}*
