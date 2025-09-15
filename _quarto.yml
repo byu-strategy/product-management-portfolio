@@ -3,11 +3,10 @@ project:
   output-dir: _site
 
 website:
-  title: "Your Name - Portfolio"
+  title: "Your Name - Product Builder Portfolio"
   navbar:
     background: primary
-    search: false
-    center:
+    left:
       - href: index.qmd
         text: Home
       - href: about.qmd
@@ -16,16 +15,16 @@ website:
         menu:
           - href: projects/project-1.qmd
             text: Portfolio Development
-          - href: projects/project-2.qmd
-            text: Business Case Presentation
-          - href: projects/project-3.qmd
-            text: Project 3
-          - href: projects/project-4.qmd
-            text: Project 4
-          - href: projects/project-5.qmd
-            text: Project 5
-          - href: projects/project-6.qmd
-            text: Project 6
+          # - href: projects/project-2.qmd
+          #   text: Business Case Presentation
+          # - href: projects/project-3.qmd
+          #   text: Project 3
+          # - href: projects/project-4.qmd
+          #   text: Project 4
+          # - href: projects/project-5.qmd
+          #   text: Project 5
+          # - href: projects/project-6.qmd
+          #   text: Project 6
 
 format:
   html:
